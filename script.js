@@ -11,26 +11,21 @@ BOTON.addEventListener ("click", ()=>{
         ERROR.style.display="block"
     } else if(peso>=30){
         let sc = superficieCorporal(peso)
-        FLUJO.innerHTML="SC*1500 " +sc [0] + "CC"
+        FLUJO.innerHTML="SC*1500: " +sc [0] + " cc"
         FLUJO.style.display="block"
-        FLUJO2.innerHTML="SC*2000 "+sc [1] + "CC"
+        FLUJO2.innerHTML="SC*2000: "+sc [1] + " cc"
         FLUJO2.style.display="block"
         ERROR.style.display="none"
     }else{
         let holy = holliday(peso)
-        FLUJO.innerHTML="V/D " +holy + "CC"
+        FLUJO.innerHTML="V/D: " +holy + " cc"
         FLUJO.style.display="block"
-        FLUJO2.innerHTML="M "+holy /24 + "CC"
+        FLUJO2.innerHTML="M: "+holy /24 + " cc/hr"
         FLUJO2.style.display="block"
-        FLUJO3.innerHTML="m/2 "+(holy/24)*1,5 + "CC"
+        FLUJO3.innerHTML="m/2: "+(holy/24)*1.5 + " cc/hr"
         FLUJO3.style.display="block"
         ERROR.style.display="none"
     }
-     
-    
-
-
-
 });
 
 

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background: rgb(119, 207, 119);
+    background: #7db67d;
     font-family: 'Montserrat', sans-serif;
     color: rgb(13, 14, 14)
 }
@@ -9,12 +9,12 @@ body{
 #contenedor{
     position: absolute;
     inset: 0;
-    width: 55vw;
-    height: 70vh;
+    width: 60vw;
+    height: 85vh;
     margin: auto;
     text-align: center;
-    border: 1px solid white;
-    border-radius: 52px;
+    border: 3px solid rgb(36, 35, 36);
+    border-radius: 65px;
     overflow: hidden;
 
 }
@@ -30,7 +30,7 @@ body{
 
 }
 #detalle{
-    background: rgb(240, 9, 40);
+    background: rgb(57, 46, 206);
     color: white;
     width: 50%;
     height: 100%;
@@ -56,11 +56,11 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	background-color: #27429c;
+	border: 3px solid #080808;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	transition: transform 20ms ease-in;
 }
 
@@ -75,7 +75,7 @@ button:active {
 }
 
 .resultado{
-    color: #0A81D1;
+    color: #227537;
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 5px;

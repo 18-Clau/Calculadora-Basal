@@ -20,9 +20,9 @@ BOTON.addEventListener ("click", ()=>{
         let holy = holliday(peso)
         FLUJO.innerHTML="V/D: " +holy + " cc"
         FLUJO.style.display="block"
-        FLUJO2.innerHTML="M: "+holy /24 + " cc/hr"
+        FLUJO2.innerHTML="M: "+(holy /24).toFixed (2) + " cc/hr"
         FLUJO2.style.display="block"
-        FLUJO3.innerHTML="m/2: "+(holy/24)*1.5 + " cc/hr"
+        FLUJO3.innerHTML="m/2: "+((holy/24)*1.5).toFixed (2) + " cc/hr"
         FLUJO3.style.display="block"
         ERROR.style.display="none"
     }
